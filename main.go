@@ -16,7 +16,9 @@ func main() {
 		f := fib()
 
 		res := &response{Message: "Hello World hhhiii"}
-
+			
+		slomal11111
+		
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
 			res.EnvVars = append(res.EnvVars, pair[0]+"="+pair[1])
